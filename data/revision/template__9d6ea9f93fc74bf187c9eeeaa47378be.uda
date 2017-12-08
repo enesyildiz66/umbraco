@@ -1,0 +1,16 @@
+{
+  "File": "umb://template-file/PrettyLink.cshtml",
+  "Master": null,
+  "Udi": "umb://template/9d6ea9f93fc74bf187c9eeeaa47378be",
+  "Dependencies": [
+    {
+      "Udi": "umb://template-file/PrettyLink.cshtml",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Pretty Link",
+  "Alias": "PrettyLink",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.TemplateArtifact",
+  "__version": "2.0.8"
+}
