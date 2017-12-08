@@ -1,0 +1,59 @@
+{
+  "DefaultTemplate": "umb://template/8e8b428e77fe4b85aca14897a01090fe",
+  "AllowedTemplates": [
+    "umb://template/8e8b428e77fe4b85aca14897a01090fe"
+  ],
+  "Icon": "icon-newspaper-alt color-red",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+    "umb://document-type/74b6873365a94c90b79ee5070c261bcf",
+    "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+    "umb://document-type/ec91616d1063493f8478f31d21d1406a",
+    "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/0808328b2a544859aefb08820fafb6e4",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/74b6873365a94c90b79ee5070c261bcf",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ec91616d1063493f8478f31d21d1406a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/8e8b428e77fe4b85aca14897a01090fe",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Article",
+  "Alias": "article",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

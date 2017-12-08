@@ -1,0 +1,54 @@
+{
+  "DefaultTemplate": "umb://template/9d6ea9f93fc74bf187c9eeeaa47378be",
+  "AllowedTemplates": [
+    "umb://template/9d6ea9f93fc74bf187c9eeeaa47378be"
+  ],
+  "Icon": "icon-link color-red",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [
+    "umb://document-type/dcc4563779ed4a30b4cb81eaf9f93d16"
+  ],
+  "CompositionContentTypes": [
+    "umb://document-type/3199133293794f0d8e61104ff5368731",
+    "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+    "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/dcc4563779ed4a30b4cb81eaf9f93d16",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/3199133293794f0d8e61104ff5368731",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/dcc4563779ed4a30b4cb81eaf9f93d16",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/9d6ea9f93fc74bf187c9eeeaa47378be",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Pretty Link",
+  "Alias": "prettyLink",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

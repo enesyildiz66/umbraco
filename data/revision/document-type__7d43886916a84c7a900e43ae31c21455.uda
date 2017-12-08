@@ -1,0 +1,69 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "82dd9157-0c5e-4a77-95bf-b954cd6b5e51",
+      "Name": "Navigation",
+      "SortOrder": 9,
+      "PropertyTypes": [
+        {
+          "Key": "435b1415-3345-42a0-a5b5-44795848191b",
+          "Alias": "umbracoNaviHide",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Tick this box if you want to hide it from the site.",
+          "Mandatory": false,
+          "Name": "Umbraco Navi Hide",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "81010347-30ca-4c33-8605-79583586cb15",
+          "Alias": "textOnlyInNavigation",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Tick this box if you want this item to be just text only in the navigation menu.",
+          "Mandatory": false,
+          "Name": "Text Only In Navigation",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "9479c843-2464-4e1c-ac0a-e1d582cf7ce5",
+          "Alias": "disableDropdown",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "Tick this box if you want to disable the dropdown for this item",
+          "Mandatory": false,
+          "Name": "Disable Dropdown",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Navigation Controls",
+  "Alias": "navigationControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

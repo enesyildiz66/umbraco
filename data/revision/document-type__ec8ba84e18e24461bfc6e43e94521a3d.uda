@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "6222a7d1-830a-4ae6-b456-b57239a95f53",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "9365e019-e6d0-4b49-b505-f8a8f82e9cd0",
+          "Alias": "latestArticlesSubtitle",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Enter the subtitle for the latest articles",
+          "Mandatory": false,
+          "Name": "Latest Articles Subtitle",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "ab0b45cf-8450-4251-ac59-f414c28561b5",
+          "Alias": "latestArticlesTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter a title for the latest articles",
+          "Mandatory": false,
+          "Name": "Latest Articles Title",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ec8ba84e18e24461bfc6e43e94521a3d",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Latest Articles Controls",
+  "Alias": "latestArticlesControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

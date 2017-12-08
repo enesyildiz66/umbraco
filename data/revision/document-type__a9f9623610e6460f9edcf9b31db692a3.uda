@@ -1,0 +1,47 @@
+{
+  "DefaultTemplate": "umb://template/b633d6cb76584b4b8e994390cf62d792",
+  "AllowedTemplates": [
+    "umb://template/b633d6cb76584b4b8e994390cf62d792"
+  ],
+  "Icon": "icon-message color-red",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+    "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+    "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a9f9623610e6460f9edcf9b31db692a3",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/b633d6cb76584b4b8e994390cf62d792",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Contact",
+  "Alias": "contact",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

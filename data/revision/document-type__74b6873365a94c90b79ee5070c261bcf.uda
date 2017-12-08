@@ -1,0 +1,64 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "297fc7eb-b4e3-4209-bfde-457ed48614e5",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "6c4ba736-94b7-4e8b-815a-75d01b4eff6c",
+          "Alias": "authorName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter a name for the author",
+          "Mandatory": true,
+          "Name": "Author Name",
+          "SortOrder": 10,
+          "Validation": null
+        },
+        {
+          "Key": "ce9f903d-00e0-4f2f-bd41-98304c481e1f",
+          "Alias": "articleDate",
+          "DataType": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+          "Description": "Choose a date for this article",
+          "Mandatory": true,
+          "Name": "Article Date",
+          "SortOrder": 9,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/74b6873365a94c90b79ee5070c261bcf",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/5046194e4237453ca54715db3a07c4e1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Article Controls",
+  "Alias": "articleControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

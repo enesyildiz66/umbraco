@@ -1,0 +1,49 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "cc39b522-6dc7-468d-90f7-101745600a64",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "db98e72b-31cb-4720-942e-e0a3fd808e12",
+          "Alias": "linkTarget",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Enter the link for this pretty link to point to",
+          "Mandatory": false,
+          "Name": "Link Target",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/3199133293794f0d8e61104ff5368731",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Pretty Link Controls",
+  "Alias": "prettyLinkControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

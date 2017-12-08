@@ -1,0 +1,49 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "23019867-6deb-420d-aaca-8d89e162598b",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "28661c57-3411-484a-85b7-96cf7bd70f91",
+          "Alias": "slideImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "Add an image for the slide",
+          "Mandatory": false,
+          "Name": "Slide Image",
+          "SortOrder": 2,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/aa810dcfbf564369afbcb89abd6480cf",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Slide Image Controls",
+  "Alias": "slideImageControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

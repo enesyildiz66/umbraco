@@ -1,0 +1,51 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-picture color-red",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/526a0a2d14224918847c85a4ab16a9f7",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/0fb1bd3eaa794536bc2614866c7a4bcb",
+    "umb://document-type/420d2c0270c44113b59812c9a394e414",
+    "umb://document-type/8d99e565986b48749b41542a0dd5e7f6",
+    "umb://document-type/aa810dcfbf564369afbcb89abd6480cf"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/06651a58c75a4650865ea9c144951896",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/0fb1bd3eaa794536bc2614866c7a4bcb",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/420d2c0270c44113b59812c9a394e414",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8d99e565986b48749b41542a0dd5e7f6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/aa810dcfbf564369afbcb89abd6480cf",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/526a0a2d14224918847c85a4ab16a9f7",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Carousel Slide",
+  "Alias": "carouselSlide",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

@@ -1,0 +1,49 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "1c978165-1766-43e1-bce7-29d4d0a023f0",
+      "Name": "Generic Properties",
+      "SortOrder": 11,
+      "PropertyTypes": [
+        {
+          "Key": "8b1b015b-846a-4656-a5e0-ef51e7a8d473",
+          "Alias": "umbracoUrlAlias",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter an alternate url in here. Please note that the values you use must be lowercase, not use a leading slash and not use a trailing \".aspx\" or trailing slash. If you are adding multiple values, they must be separated with a comma.",
+          "Mandatory": false,
+          "Name": "Umbraco Url Alias",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/fcf74ca7a8384989b6ced6b529ed4021",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Umbraco Url Alias Controls",
+  "Alias": "umbracoUrlAliasControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

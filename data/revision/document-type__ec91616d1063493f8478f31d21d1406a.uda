@@ -1,0 +1,79 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "ec14cbe1-d830-4cc3-9bf8-9706746febf7",
+      "Name": "Content",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "196b9027-7c1d-41df-b694-8e30ca5ce07f",
+          "Alias": "title",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter the title for this page. If you leave this blank, we will use the page name.",
+          "Mandatory": false,
+          "Name": "Title",
+          "SortOrder": 0,
+          "Validation": null
+        },
+        {
+          "Key": "456e05aa-a461-4bb7-a1b1-c2bd9141d472",
+          "Alias": "contentGrid",
+          "DataType": "umb://data-type/bda74fb0cedb46319d2981ef635fb438",
+          "Description": "Enter the content for the grid",
+          "Mandatory": false,
+          "Name": "Content Grid",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "542f8e2a-bd7b-4a17-b318-75adc3c59e52",
+          "Alias": "mainImage",
+          "DataType": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+          "Description": "Choose an image to show as the main image on this page",
+          "Mandatory": false,
+          "Name": "Main Image",
+          "SortOrder": 1,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ec91616d1063493f8478f31d21d1406a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/135d60e064d949edab08893c9ba44ae5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/bda74fb0cedb46319d2981ef635fb438",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Content Controls",
+  "Alias": "contentControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

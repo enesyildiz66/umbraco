@@ -1,0 +1,74 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "e906a45e-1037-4392-a05a-0fd4d2f646f8",
+      "Name": "Footer",
+      "SortOrder": 8,
+      "PropertyTypes": [
+        {
+          "Key": "1742dfbb-e31e-4ff7-9c3b-03ae45b5e6e4",
+          "Alias": "footerLinks",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Enter the footer links",
+          "Mandatory": false,
+          "Name": "Footer Links",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "b6feb181-90b8-4062-ab7c-bfed002a6fc5",
+          "Alias": "footerSocialLinks",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": "Enter the social links to show in the footer",
+          "Mandatory": false,
+          "Name": "Footer Social Links",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "fc7871be-12a6-4d6a-8736-86facd1f124d",
+          "Alias": "footerTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter a title for the footer content",
+          "Mandatory": false,
+          "Name": "Footer Title",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/4a573837b9fa432a9538642d14097be2",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Footer Content Controls",
+  "Alias": "footerContentControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

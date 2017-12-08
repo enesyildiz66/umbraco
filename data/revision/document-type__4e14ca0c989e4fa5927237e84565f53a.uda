@@ -1,0 +1,41 @@
+{
+  "DefaultTemplate": "umb://template/f4f03fc8a0af471eaf786256b81de515",
+  "AllowedTemplates": [
+    "umb://template/f4f03fc8a0af471eaf786256b81de515"
+  ],
+  "Icon": "icon-search color-red",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [
+    "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+    "umb://document-type/7d43886916a84c7a900e43ae31c21455"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/4e14ca0c989e4fa5927237e84565f53a",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7d43886916a84c7a900e43ae31c21455",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://template/f4f03fc8a0af471eaf786256b81de515",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Search",
+  "Alias": "search",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

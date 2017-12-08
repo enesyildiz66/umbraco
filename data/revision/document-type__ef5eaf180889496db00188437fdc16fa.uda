@@ -1,0 +1,44 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": null,
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "480e6b15-3462-48c7-8268-a235400873a3",
+      "Name": "Header",
+      "SortOrder": 0,
+      "PropertyTypes": [
+        {
+          "Key": "1e24d9ab-15aa-4ab1-a8ce-372896d62bc8",
+          "Alias": "mainCarousel",
+          "DataType": "umb://data-type/434f65e7272040f1bede2d86792feeb5",
+          "Description": "Add the items for the carousel",
+          "Mandatory": false,
+          "Name": "Main Carousel",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ef5eaf180889496db00188437fdc16fa",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/434f65e7272040f1bede2d86792feeb5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Carousel Controls",
+  "Alias": "carouselControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}

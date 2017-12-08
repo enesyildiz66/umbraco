@@ -1,0 +1,79 @@
+{
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "Icon": "icon-document",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "AllowedAtRoot": false,
+  "IsContainer": false,
+  "Parent": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+  "AllowedChildContentTypes": [],
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "0b84185e-43ed-48e6-8081-5a4cf24a6fce",
+      "Name": "Meta Data",
+      "SortOrder": 9,
+      "PropertyTypes": [
+        {
+          "Key": "71ec1436-6996-4a28-81b9-f32d38d14756",
+          "Alias": "metaKeywords",
+          "DataType": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+          "Description": "Enter the meta keywords. This is used for Search Engine",
+          "Mandatory": false,
+          "Name": "Meta Keywords",
+          "SortOrder": 2,
+          "Validation": null
+        },
+        {
+          "Key": "ca268b26-cb67-4184-ae3d-83dad45112c1",
+          "Alias": "metaDescription",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Enter the meta description. This is what shows up in Google etc. If left blank, will use the page name.",
+          "Mandatory": false,
+          "Name": "Meta Description",
+          "SortOrder": 1,
+          "Validation": null
+        },
+        {
+          "Key": "f1be212d-1820-4539-a2ea-b7723120218b",
+          "Alias": "metaName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Enter the meta name. If left blank it will use the page name.",
+          "Mandatory": false,
+          "Name": "Meta Name",
+          "SortOrder": 0,
+          "Validation": null
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/26060ac2fe514d73a079a6eae6ec38ed",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b6b73142b9c14bf8a16de1c23320b549",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/c98fecd0bf454a0faf09ce7ed5bbfc5b",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "Name": "Meta Data Controls",
+  "Alias": "metaDataControls",
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DocumentTypeArtifact",
+  "__version": "2.0.8"
+}
