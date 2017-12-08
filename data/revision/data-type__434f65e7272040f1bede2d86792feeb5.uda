@@ -1,0 +1,19 @@
+{
+  "EditorAlias": "Umbraco.NestedContent",
+  "DatabaseType": 0,
+  "PreValues": {
+    "confirmDeletes": "1",
+    "contentTypes": "[\r\n  {\r\n    \"ncAlias\": \"carouselSlide\",\r\n    \"ncTabAlias\": \"Content\",\r\n    \"nameTemplate\": \"{{slideTitle}}\"\r\n  }\r\n]",
+    "hideLabel": "",
+    "maxItems": "10",
+    "minItems": "0",
+    "showIcons": "1"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/434f65e7272040f1bede2d86792feeb5",
+  "Dependencies": [],
+  "Name": "Main Carousel",
+  "Alias": null,
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "2.0.8"
+}
