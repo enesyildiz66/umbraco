@@ -45,7 +45,7 @@
     <key alias="setPermissions">Sæt rettigheder</key>
     <key alias="unlock">Lås op</key>
     <key alias="createblueprint">Opret indholdsskabelon</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="actionCategories">
     <key alias="content">Indhold</key>
     <key alias="administration">Administration</key>
@@ -586,7 +586,6 @@
     <key alias="sort">Sortér</key>
     <key alias="status">Status</key>
     <key alias="submit">Indsend</key>
-    <!-- TODO: Translate this -->
     <key alias="type">Type</key>
     <key alias="typeToSearch">Skriv for at søge...</key>
     <key alias="up">Op</key>
@@ -612,6 +611,7 @@
     <key alias="saving">Gemmer...</key>
     <key alias="current">nuværende</key>
     <key alias="embed">Indlejring</key>
+    <key alias="retrieve">Hent</key>
     <key alias="selected">valgt</key>
   </area>
 
@@ -1180,7 +1180,7 @@ Mange hilsner fra Umbraco robotten
 
     <key alias="iWant">Returner</key>
     <key alias="allContent">alt indhold</key>
-    <key alias="contentOfType">indhold af typen "%0%"</key>
+    <key alias="contentOfType">indhold af typen &quot;%0%&quot;</key>
     
     <key alias="from">fra</key>
     <key alias="websiteRoot">mit website</key>

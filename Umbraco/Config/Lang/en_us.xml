@@ -45,7 +45,7 @@
         <key alias="setPermissions">Set permissions</key>
         <key alias="unlock">Unlock</key>
         <key alias="createblueprint">Create Content Template</key>
-    <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+    </area>
     <area alias="actionCategories">
         <key alias="content">Content</key>
         <key alias="administration">Administration</key>
@@ -637,6 +637,7 @@
         <key alias="saving">Saving...</key>
         <key alias="current">current</key>
         <key alias="embed">Embed</key>
+    <key alias="retrieve">Retrieve</key>
         <key alias="selected">selected</key>
     </area>
     <area alias="colors">
@@ -1466,7 +1467,7 @@ To manage your website, simply open the Umbraco back office and start adding con
 
         <key alias="iWant">I want</key>
         <key alias="allContent">all content</key>
-        <key alias="contentOfType">content of type "%0%"</key>
+        <key alias="contentOfType">content of type &quot;%0%&quot;</key>
         <key alias="from">from</key>
         <key alias="websiteRoot">my website</key>
         <key alias="where">where</key>

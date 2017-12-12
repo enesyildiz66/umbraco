@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <language alias="sv" intName="Swedish" localName="Svenska" lcid="29" culture="sv-SE">
   <creator>
     <name>The Umbraco community</name>
@@ -34,7 +34,7 @@
     <key alias="translate">Översätt</key>
     <key alias="unpublish">Avpublicera</key>
     <key alias="update">Uppdatera</key>
-  <key alias="exportContourForm">Export form</key><key alias="importContourForm">Import form</key><key alias="archiveContourForm">Archive form</key><key alias="unarchiveContourForm">Unarchive form</key><key alias="defaultValue">Default value</key></area>
+  </area>
   <area alias="assignDomain">
     <key alias="addNew">Lägg till nytt domännamn</key>
     <key alias="domain">Domännamn</key>
@@ -411,7 +411,7 @@
     <key alias="showPageOnSend">Vilken sida skall visas när formuläret är skickat</key>
     <key alias="size">Storlek</key>
     <key alias="sort">Sortera</key>
-    <key alias="submit">Submit</key> <!-- TODO: Translate this -->
+    <key alias="submit">Skicka</key>
     <key alias="type">Skriv</key>
     <key alias="typeToSearch">Skriv för att söka...</key>
     <key alias="up">Upp</key>
@@ -426,8 +426,17 @@
     <key alias="width">Bredd</key>
     <key alias="view">Titta på</key>
     <key alias="yes">Ja</key>
-    <key alias="reorder">Reorder</key>
-    <key alias="reorderDone">I am done reordering</key>
+    <key alias="reorder">Sortera</key>
+    <key alias="reorderDone">Avsluta sortering</key>
+    <key alias="preview">Förhandsvisning</key>
+    <key alias="changePassword">Ändra lösenord</key>
+    <key alias="to">till</key>
+    <key alias="listView">Listvy</key>
+    <key alias="saving">Sparar...</key>
+    <key alias="current">nuvarande</key>
+    <key alias="embed">Inbäddning</key>
+    <key alias="retrieve">Hämta</key>
+    <key alias="selected">valgt</key>
   </area>
   <area alias="graphicheadline">
     <key alias="backgroundcolor">Bakgrundsfärg</key>
